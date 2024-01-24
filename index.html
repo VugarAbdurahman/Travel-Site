@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!----------- Google Fonts ------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!----------- CDNJS ------------>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!----------- CSS ------------>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <title>Vugar</title>
+    <link rel="icon" type="image/icon" href=images/icons8-plane-60.ico">
+  </head>
+
+  <body>
+    <!-----Header Start----->
+    <header class="header" id="header">
+      <div class="header-top" id="navbar">
+        <div class="header-top-logo bottom-animation">
+          <img src="images/logo.png" />
+        </div>
+        <div class="header-top-menu top-animation">
+          <ul id="menuItems">
+            <li><a href="index.html" class="active b-mark">Home Page</a></li>
+            <li><a href="places.html">Places</a></li>
+            <li><a href="login.html" id="login-btn">Login</a></li>
+            <li><a href="sign.html" id="sign-btn">Sign in</a></li>
+            <div class="social-icon">
+              <i class="fa-brands fa-facebook social-icons"></i>
+              <i class="fa-brands fa-instagram social-icons"></i>
+              <i class="fa-brands fa-github social-icons"></i>
+            </div>
+          </ul>
+
+          <i class="fa-solid fa-bars" id="menu-icon" onclick="menuToggle()"></i>
+        </div>
+      </div>
+      <div class="header-content-heading left-animation">
+        <h1>Find <span>Your</span> Next <span id="stay">Stay</span></h1>
+        <p>
+          Search deals for hotels, homes <br /><span>and much more...</span>
+        </p>
+        <a href="#">Get Started</a>
+      </div>
+    </header>
+    <!-----Header End----->
+
+    <!-----Section Start----->
+
+    <div class="container">
+      <h2 class="sub-title">Exclusives</h2>
+      <div class="exclusives">
+        <div>
+          <img src="images/image-1.png" />
+          <span>
+            <h3>London</h3>
+            <p>Starts @ $250</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-2.png" />
+          <span>
+            <h3>Switzerland</h3>
+            <p>Starts @ $200</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-3.png" />
+          <span>
+            <h3>Australia</h3>
+            <p>Starts @ $350</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-4.png" />
+          <span>
+            <h3>France</h3>
+            <p>Starts @ $220</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-5.png" />
+          <span>
+            <h3>Amsterdam</h3>
+            <p>Starts @ $250</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-6.png" />
+          <span>
+            <h3>Netherlands</h3>
+            <p>Starts @ $230</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-7.png" />
+          <span>
+            <h3>New York</h3>
+            <p>Starts @ $450</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-8.png" />
+          <span>
+            <h3>Chicago</h3>
+            <p>Starts @ $400</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-9.png" />
+          <span>
+            <h3>San Francisco</h3>
+            <p>Starts @ $450</p>
+          </span>
+        </div>
+        <div>
+          <img src="images/image-10.png" />
+          <span>
+            <h3>Shangai</h3>
+            <p>Starts @ $250</p>
+          </span>
+        </div>
+      </div>
+      <h2 class="sub-title">Trending</h2>
+      <div class="trending">
+        <div>
+          <img src="images/dubai.png" />
+          <h3>Dubai</h3>
+        </div>
+        <div>
+          <img src="images/new-york.png" />
+          <h3>New-York</h3>
+        </div>
+        <div>
+          <img src="images/paris.png" />
+          <h3>Paris</h3>
+        </div>
+        <div>
+          <img src="images/new-delhi.png" />
+          <h3>New-Delhi</h3>
+        </div>
+      </div>
+      <div class="cta">
+        <h3>Sharing <br />is Earning Now</h3>
+        <p>
+          Great opportunity to make money by <br />sharing your extra space.
+        </p>
+        <a href="#" class="cta-btn">Know More</a>
+      </div>
+      <h2 class="sub-title">Travellers Stories</h2>
+      <div class="stories">
+        <div>
+          <img src="images/story-1.png" />
+          <p>Popular European countries with a budget of just $10,000</p>
+        </div>
+        <div>
+          <img src="images/story-2.png" />
+          <p>Traveled more than 100 Countries in less than a year</p>
+        </div>
+        <div>
+          <img src="images/story-3.png" />
+          <p>Best experience you get while traveling to Thailand</p>
+        </div>
+      </div>
+      <a href="#" class="start-btn">Start making money</a>
+      <div class="about">
+        <h2>About Company</h2>
+        <p>
+          We believe finding your new apartment is more than just a move. It’s
+          something bigger. A step forward. A new beginning. A fresh start.
+          Whether you’re moving across the country or across the street, you
+          deserve to love where you land. But today’s rental experience is
+          broken. It’s outdated, exhausting, and slow. We spend hours of our
+          lives searching just to settle for places that don’t feel like home.
+          The nightmare ends now. Zumper is on a mission to change the way you
+          rent, forever. To make it easier, faster, and more human. By making
+          this vision a reality, we’re creating opportunity for everyone to live
+          better—from one fresh start to the next.
+        </p>
+      </div>
+      <div class="footer">
+        <a href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://youtube.com/"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+        <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+        <hr />
+        <p>Copyright © 2021, Vugar Abdurahmanov</p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

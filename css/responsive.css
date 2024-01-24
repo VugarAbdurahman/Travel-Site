@@ -1,0 +1,126 @@
+/******** Header ********/
+
+/******** Hamburger Menu  ********/
+@media only screen and (max-width:840px) {
+    header .header-top .header-top-menu ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 78px;
+        width: 100%;
+        z-index: 50;
+        height: 480px;
+        position: absolute;
+        top: 10%;
+        left: 0;
+        overflow: hidden;
+        transition: max-height .5s;
+        background-color: #9B9C98;
+        background: linear-gradient(to right bottom, #9C9C96,
+                #888985);
+    }
+
+    header .header-top .header-top-menu ul .active::after {
+        display: none;
+    }
+
+    header .header-top .header-top-menu ul li .b-mark {
+        font-size: 22px;
+        color: #000;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    header .header-top .header-top-menu #menu-icon {
+        display: flex;
+        color: #fff;
+        margin-top: 11px;
+        cursor: pointer;
+    }
+
+    header .header-top .header-top-menu .social-icon .social-icons {
+        margin-left: 10px;
+    }
+
+    /******** Hamburger Menu End ********/
+
+    header .header-top {
+        padding: 10px 40px;
+    }
+
+    header .header-content-heading h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    header .header-content-heading h1 {
+        font-size: 2rem !important;
+    }
+
+    header .header-content-heading p {
+        font-size: 1rem !important;
+    }
+
+    #stay {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:501px) {
+    section .creative-content .creative-header h2 {
+        margin-right: 30px;
+        font-size: 1.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .creative-content .creative-header hr {
+        margin-right: 50px;
+    }
+
+
+}
+
+@media only screen and (min-width:841px) {
+    section .creative-content .creative-row .creative-col .col-header h3 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .container .sub-title {
+        font-size: 6vw;
+    }
+
+    .container .cta {
+        padding: 15% 5%;
+    }
+
+    .container .cta h3 {
+        font-size: 7vw;
+        line-height: 8vw;
+    }
+
+    .container .cta p {
+        font-size: 14px;
+    }
+
+    .container .cta-btn {
+        padding: 6px 15px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .container .stories p {
+        font-size: 1px;
+    }
+
+    .container .about {
+        font-size: 15px;
+    }
+}
